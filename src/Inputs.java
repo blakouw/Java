@@ -12,7 +12,7 @@ public class Inputs {
             return a;
         }
         else {
-            System.err.println("Wrong value: " + a);
+            System.err.println("Zle wprowadzona wartosc: " + a);
             System.exit(0);
             return 0;
         }
@@ -23,7 +23,7 @@ public class Inputs {
             return r_input;
         }
         else {
-            System.err.println("Wrong value: " + r_input);
+            System.err.println("Zle wprowadzona wartosc: " + r_input);
             System.exit(0);
             return 0;
         }
@@ -35,7 +35,7 @@ public class Inputs {
             return x;
         }
         else {
-            System.err.println("Wrong value: " + x);
+            System.err.println("Zle wprowadzona wartosc: " + x);
             System.exit(0);
             return 0;
         }
@@ -47,7 +47,7 @@ public class Inputs {
             return y;
         }
         else {
-            System.err.println("Wrong value: " + y);
+            System.err.println("Zle wprowadzona wartosc: " + y);
             System.exit(0);
             return 0;
         }
@@ -60,7 +60,7 @@ public class Inputs {
             return z;
         }
         else {
-            System.err.println("Wrong value: " + z);
+            System.err.println("Zle wprowadzona wartosc: " + z);
             System.exit(0);
             return 0;
         }
@@ -71,7 +71,7 @@ public class Inputs {
             return height;
         }
         else {
-            System.err.println("Wrong value: " + height);
+            System.err.println("Zle wprowadzona wartosc: " + height);
             System.exit(0);
             return 0;
         }

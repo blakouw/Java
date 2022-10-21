@@ -1,7 +1,6 @@
 public class Triangle extends Figure implements Printable {
     private double a,b,c;
     Triangle(double x, double y, double z) {
-
             a = x;
             b = y;
             c = z;
@@ -33,7 +32,6 @@ public class Triangle extends Figure implements Printable {
         else {
             String temp= " ";
             System.err.println("Nie mozna stworzyc trojkata o bokach: "+a+temp+b+temp+c);
-            System.exit(0);
         }
     }
 }
